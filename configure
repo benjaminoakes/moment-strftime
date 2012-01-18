@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Set up development environment
+# Set up build environment
 set -o errexit
 
 npm install
