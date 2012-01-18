@@ -90,4 +90,4 @@ describe 'strftime', ->
       expect(@o.strftime('%%')).toEqual('%')
 
   it 'formats correctly with a compound format', ->
-    expect(@o.strftime("%Y/%m/%d %H:%M:%S")).toEqual('2012/01/17 20:54:20')
+    expect(@o.strftime("%m/%d/%y %I:%M %p %Z")).toEqual('01/17/12 08:54 PM EST')
