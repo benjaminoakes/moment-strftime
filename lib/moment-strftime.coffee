@@ -17,9 +17,9 @@ replacements =
   p: 'A'
   S: 'ss'
   Z: 'z'
-  U: 'ww' # Monday or Sunday?
+  # U: 'ww' # Monday or Sunday?
   w: 'd'
-  W: 'ww' # Monday or Sunday?
+  # W: 'ww' # Monday or Sunday?
   y: 'YY'
   Y: 'YYYY'
   '%': '%'
