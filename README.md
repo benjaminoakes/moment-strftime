@@ -14,8 +14,8 @@ But... if Moment.js just had `strftime`, why would you need anything else?  Ente
 
 ### Browser
 
-  * [Development](http://cloud.github.com/downloads/benjaminoakes/moment-strftime/moment-strftime-0.1.0.js)
-  * [Production](https://github.com/downloads/benjaminoakes/moment-strftime/moment-strftime-0.1.0.min.js)
+  * [Development](http://cloud.github.com/downloads/benjaminoakes/moment-strftime/moment-strftime.js)
+  * [Production](https://github.com/downloads/benjaminoakes/moment-strftime/moment-strftime.min.js)
 
 ### CommonJS
 
