@@ -28,3 +28,5 @@ task 'release', 'Generate release files', ->
     versioned = "#{packageInfo.name}-#{packageInfo.version}.#{suffix}"
 
     fs.writeFileSync("build/#{versioned}", fs.readFileSync("build/#{filename}"))
+
+  console.log('Run `npm publish` when ready.')
