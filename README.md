@@ -27,7 +27,12 @@ But... if Moment.js just had `strftime`, why would you need anything else?  Ente
 
 `moment-strftime` is a tiny plugin for Moment.js that adds a `strftime` method.  It's simple:
 
-    moment().strftime("%m/%d/%y %I:%M %p %Z") // => '01/17/12 08:54 PM EST'
+    moment().strftime("%m/%d/%y %I:%M %p %Z"); // => '01/17/12 08:54 PM EST'
+
+In Node.js (CoffeeScript in this example):
+
+    moment = require('moment-strftime') # Gets you everything in Moment.js too
+    moment().strftime("%m/%d/%y %I:%M %p %Z") # => '01/17/12 08:54 PM EST'
 
 ## Contributing
 
