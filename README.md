@@ -10,6 +10,19 @@ That's unfortunate.  There are [too](https://github.com/loopj/commonjs-date-form
 
 But... if Moment.js just had `strftime`, why would you need anything else?  Enter `moment-strftime`.
 
+## Installation
+
+### Browser
+
+  * [Development](http://cloud.github.com/downloads/benjaminoakes/moment-strftime/moment-strftime-0.1.0.js)
+  * [Production](https://github.com/downloads/benjaminoakes/moment-strftime/moment-strftime-0.1.0.min.js)
+
+### CommonJS
+
+`moment-strftime` should work as a CommonJS module in most cases.  There's also a Node.js pacakage:
+
+    npm install moment-strftime
+
 ## Usage
 
 `moment-strftime` is a tiny plugin for Moment.js that adds a `strftime` method.  It's simple:
