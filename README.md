@@ -17,9 +17,9 @@ But... if Moment.js just had `strftime`, why would you need anything else?  Ente
   * [Development](http://cloud.github.com/downloads/benjaminoakes/moment-strftime/moment-strftime.js)
   * [Production](https://github.com/downloads/benjaminoakes/moment-strftime/moment-strftime.min.js)
 
-### CommonJS
+### Node.js/CommonJS
 
-`moment-strftime` should work as a CommonJS module in most cases.  There's also a Node.js pacakage:
+`moment-strftime` is a Node.js package.  The JavaScript itself should work as a CommonJS module, but it has only been tested in Node.js.
 
     npm install moment-strftime
 
