@@ -34,6 +34,12 @@ In Node.js (CoffeeScript in this example):
     moment = require('moment-strftime') # Gets you everything in Moment.js too
     moment().strftime("%m/%d/%y %I:%M %p %Z") # => '01/17/12 08:54 PM EST'
 
+## Known Issues
+
+I've only developed `moment-strftime` as far as I need it right now, rather than implementing features I don't need yet.  I've noticed that implementing "unused" features often leads to bugs, so the plan is to implement on an as-needed basis.
+
+If you run into an issue or unimplemented feature that you need, please [let me know](https://github.com/benjaminoakes/moment-strftime/issues).  Contributions are welcome as well.
+
 ## Contributing
 
 The library and specs are written in CoffeeScript.  You'll need Node.js for development.
