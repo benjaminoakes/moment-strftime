@@ -23,7 +23,10 @@ The library and specs are written in CoffeeScript.  You'll need Node.js for deve
 To get up and running:
 
     ./configure 
+    cake
 
-To run specs:
+If everything is set up correctly, you should see:
 
-    cake spec
+    Cakefile defines the following tasks:
+    
+    [...]
