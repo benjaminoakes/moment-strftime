@@ -54,3 +54,8 @@ If everything is set up correctly, you should see:
     Cakefile defines the following tasks:
     
     [...]
+
+## Resources
+
+* [cheat strftime](http://cheat.errtheblog.com/s/strftime/)
+* [C strftime](http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html)
