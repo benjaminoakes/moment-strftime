@@ -1,4 +1,7 @@
-moment = require('moment')
+if require?
+  moment = require('moment')
+else
+  moment = this.moment
 
 replacements =
   a: 'ddd'
@@ -29,4 +32,7 @@ moment.fn.strftime = (format) ->
 
   @format(momentFormat)
 
-module.exports = moment
+if module?
+  module.exports = moment
+else
+  this.moment = moment
