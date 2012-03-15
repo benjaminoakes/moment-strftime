@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-# Set up build environment
 set -o errexit
 
-npm install
+# Bootstrap
+curl -so .roboconf.sh https://raw.github.com/benjaminoakes/roboconf/master/roboconf.sh
+source .roboconf.sh
+
+roboconf-npm
