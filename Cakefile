@@ -8,6 +8,7 @@ callback = (err, stdout, stderr) ->
 
 task 'clean', 'Clean generated files', ->
   rmrf.sync('build')
+  rmrf.sync('node_modules')
 
 task 'spec', 'Run Jasmine specs in spec/', ->
   exec 'node_modules/.bin/jasmine-node --coffee spec/', callback
