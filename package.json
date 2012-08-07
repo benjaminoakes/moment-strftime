@@ -1,5 +1,5 @@
 {
-  "name": "moment-strftime",
+  "name": "moment-tokens",
   "version": "0.1.2",
   "author": "Benjamin Oakes <hello@benjaminoakes.com> (http://www.benjaminoakes.com/)",
   "description": "moment-strftime adds strftime to Moment.js",
