@@ -1,4 +1,4 @@
-# moment-strftime
+# moment-tokens
 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=benjaminoakes&url=https://github.com/benjaminoakes/moment-strftime&title=moment-strftime&language=en_GB&tags=github&category=software)
 
@@ -50,13 +50,13 @@ The library and specs are written in CoffeeScript.  You'll need Node.js for deve
 
 To get up and running:
 
-    ./configure 
+    ./configure
     cake
 
 If everything is set up correctly, you should see:
 
     Cakefile defines the following tasks:
-    
+
     [...]
 
 ## Resources
