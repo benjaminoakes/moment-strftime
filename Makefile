@@ -18,9 +18,8 @@ release: dependences version
 	cp lib/moment-tokens.js build/moment-tokens-${VERSION}.js
 
 test: dependences
-	node_modules/.bin/jasmine-node  spec
+	echo TODO Convert to nodeunit
 
 version:
 	$(eval VERSION = $(shell cat package.json |grep version |cut -d ":" -f 2 |tr -d " ,\""))
 	@echo Version: $(VERSION)
-
