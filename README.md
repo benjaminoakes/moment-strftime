@@ -52,16 +52,9 @@ If you run into an issue or unimplemented feature that you need, please [let me 
 
 The library and specs are written in CoffeeScript (NOTE: we're moving to JavaScript).  You'll need Node.js for development.
 
-To get up and running:
+To run tests:
 
-    npm install
-    cake
-
-If everything is set up correctly, you should see:
-
-    Cakefile defines the following tasks:
-    
-    [...]
+    make test
 
 ## Resources
 
