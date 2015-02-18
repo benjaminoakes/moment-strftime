@@ -20,8 +20,7 @@ But... if Moment.js just had `strftime` and friends, why would you need anything
 
 Pre-compiled for easy use with the rest of your JavaScript:
 
-  * [Development](http://cloud.github.com/downloads/benjaminoakes/moment-tokens/moment-strftime.js)
-  * [Production](https://github.com/downloads/benjaminoakes/moment-tokens/moment-strftime.min.js)
+  * [Development and Production](https://github.com/benjaminoakes/moment-strftime/releases)
 
 ### Node.js/CommonJS
 
