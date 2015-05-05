@@ -1,3 +1,4 @@
-/build
+/build/*
 /node_modules
 .roboconf.sh
+!/build/moment-strftime.min.js
