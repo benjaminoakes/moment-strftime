@@ -1,0 +1,27 @@
+{
+    "name": "moment-strftime",
+    "version": "0.1.2",
+    "homepage": "https://github.com/benjaminoakes/moment-strftime",
+    "authors": [
+        "Benjamin Oakes <hello@benjaminoakes.com> (http://www.benjaminoakes.com/)"
+    ],
+    "description": "moment-strftime adds strftime to Moment.js",
+    "main": "build/moment-strftime.min.js",
+    "keywords": [
+        "moment",
+        "date",
+        "strftime"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "Cakefile",
+        "lib",
+        "spec"
+    ],
+    "dependencies": {
+        "moment": "~1.3.0"
+    }
+}
