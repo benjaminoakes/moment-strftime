@@ -2,3 +2,4 @@
 /node_modules
 .roboconf.sh
 !/build/moment-strftime.min.js
+bower_components/
