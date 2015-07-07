@@ -9,6 +9,7 @@ replacements =
   b: 'MMM'
   B: 'MMMM'
   d: 'DD'
+  e: 'D'
   F: 'YYYY-MM-DD'
   H: 'HH'
   I: 'hh'
