@@ -6,7 +6,7 @@
         "Benjamin Oakes <hello@benjaminoakes.com> (http://www.benjaminoakes.com/)"
     ],
     "description": "moment-strftime adds strftime to Moment.js",
-    "main": "build/moment-strftime.min.js",
+    "main": "lib/moment-strftime.js",
     "keywords": [
         "moment",
         "date",
@@ -17,7 +17,6 @@
         "**/.*",
         "node_modules",
         "bower_components",
-        "Cakefile",
         "lib",
         "spec"
     ],

@@ -17,11 +17,9 @@ But... if Moment.js just had `strftime` and friends, why would you need anything
 
 ### Browser
 
-Pre-compiled for easy use with the rest of your JavaScript:
+It's preferred that you use Bower, but you can also [download the raw JavaScript](https://raw.githubusercontent.com/benjaminoakes/moment-strftime/master/lib/moment-strftime.js).
 
-  * [Development and Production](https://github.com/benjaminoakes/moment-strftime/releases)
-
-### Node.js/CommonJS
+### Node.js
 
 `moment-strftime` is available as a Node.js package.  The JavaScript itself should work as a CommonJS module, but it has only been tested in Node.js.
 
@@ -54,13 +52,7 @@ The library and specs are written in CoffeeScript (NOTE: we're moving to JavaScr
 To get up and running:
 
     npm install
-    cake
-
-If everything is set up correctly, you should see:
-
-    Cakefile defines the following tasks:
-    
-    [...]
+    npm test
 
 ## Resources
 
