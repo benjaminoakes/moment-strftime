@@ -29,11 +29,10 @@
   },
 
   "scripts": {
-    "test": "jasmine-node --coffee spec"
+    "test": "jasmine-node spec"
   },
 
   "dependencies": {
-    "coffee-script": "1.2.0",
     "moment": "~2.10.3"
   },
 

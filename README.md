@@ -47,7 +47,7 @@ If you run into an issue or unimplemented feature that you need, please [let me 
 
 ## Contributing
 
-The library and specs are written in CoffeeScript (NOTE: we're moving to JavaScript).  You'll need Node.js for development.
+You'll need Node.js for development.
 
 To get up and running:
 
