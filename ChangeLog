@@ -1,0 +1,12 @@
+moment-strftime (0.1.3) unstable; urgency=low
+
+  * Started official support for stable node.js, node.js v0.10.x, node.js
+    v0.12.x, and stable io.js
+  * Brandon Pittman: Add "%F" replacement, common shortcut for the date
+    command in Unix (Closes: #6)
+  * Pierre Rudloff: Add Bower package (Closes: #7)
+  * Pierre Rudloff: Update moment dependency (Closes: #11)
+  * Nicolas: Add "%e" replacement, day of the month without leading zero
+    (Closes: #12)
+
+ -- Benjamin Oakes <hello@benjaminoakes.com>  TODO
