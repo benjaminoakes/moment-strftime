@@ -34,7 +34,7 @@ It's preferred that you use Bower, but you can also [download the raw JavaScript
 In Node.js:
 
     // Gets you everything in Moment.js too
-    moment = require('moment-strftime');
+    var moment = require('moment-strftime');
     moment().strftime("%m/%d/%y %I:%M %p %Z"); // => '01/17/12 08:54 PM EST'
 
 ## Known Issues
