@@ -18,6 +18,7 @@ replacements =
   M: 'mm'
   p: 'A'
   S: 'ss'
+  z: 'ZZ'
   Z: 'z'
   # U: 'ww' # Monday or Sunday?
   w: 'd'

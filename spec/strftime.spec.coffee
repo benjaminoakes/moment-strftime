@@ -29,11 +29,11 @@ describe 'strftime', ->
 
   describe 'given %H', ->
     it 'gives hour of the day, 24-hour clock (00..23)', ->
-      expect(@o.strftime('%H')).toEqual('20')
+      expect(@o.strftime('%H')).toEqual('19')
 
   describe 'given %I', ->
     it 'gives hour of the day, 12-hour clock (01..12)', ->
-      expect(@o.strftime('%I')).toEqual('08')
+      expect(@o.strftime('%I')).toEqual('07')
 
   describe 'given %j', ->
     it 'gives day of the year (001..366)', ->
@@ -82,12 +82,16 @@ describe 'strftime', ->
       expect(@o.strftime('%Y')).toEqual('2012')
 
   describe 'given %Z', ->
-    it 'gives time zone name', ->
-      expect(@o.strftime('%Z')).toEqual('EST')
+    it 'gives an empty string because it is deprecated', ->
+      expect(@o.strftime('%Z')).toEqual('')
+
+  describe 'given %z', ->
+    it 'gives the UTC offset', ->
+      expect(@o.strftime('%z')).toEqual('-0600')
 
   describe 'given %%', ->
     it 'gives "%" character', ->
       expect(@o.strftime('%%')).toEqual('%')
 
   it 'formats correctly with a compound format', ->
-    expect(@o.strftime("%m/%d/%y %I:%M %p %Z")).toEqual('01/17/12 08:54 PM EST')
+    expect(@o.strftime("%m/%d/%y %I:%M %p %z")).toEqual('01/17/12 07:54 PM -0600')
