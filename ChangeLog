@@ -1,4 +1,4 @@
-moment-strftime (0.1.3) unstable; urgency=low
+moment-strftime (0.1.3) stable; urgency=low
 
   * Started official support for stable node.js, node.js v0.10.x, node.js
     v0.12.x, and stable io.js
@@ -9,4 +9,4 @@ moment-strftime (0.1.3) unstable; urgency=low
   * Nicolas: Add "%e" replacement, day of the month without leading zero
     (Closes: #12)
 
- -- Benjamin Oakes <hello@benjaminoakes.com>  TODO
+ -- Benjamin Oakes <hello@benjaminoakes.com>  Wed, 9 Jul 2015 03:20:00 +0000
