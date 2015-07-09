@@ -22,7 +22,7 @@
     }
   ],
 
-  "main": "./lib/main.js",
+  "main": "./lib/moment-strftime.js",
 
   "engines": {
     "node": "*"
