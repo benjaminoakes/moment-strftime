@@ -88,11 +88,11 @@ describe 'strftime', ->
 
   describe 'given %z', ->
     it 'gives the UTC offset', ->
-      expect(@o.strftime('%z')).toEqual('-0600')
+      expect(@o.strftime('%z')).toMatch(/[-+]\d{4}/)
 
   describe 'given %%', ->
     it 'gives "%" character', ->
       expect(@o.strftime('%%')).toEqual('%')
 
   it 'formats correctly with a compound format', ->
-    expect(@o.strftime("%m/%d/%y %I:%M %p %z")).toEqual('01/17/12 07:54 PM -0600')
+    expect(@o.strftime("%m/%d/%y %I:%M %p")).toEqual('01/17/12 07:54 PM')
