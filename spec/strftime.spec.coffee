@@ -2,7 +2,8 @@ moment = require('../lib/moment-strftime')
 
 describe 'strftime', ->
   beforeEach ->
-    @o = moment('2012-01-18T01:54:20.620Z')
+    # Prefer local time over UTC since JavaScript dates prefer the local timezone
+    @o = moment('2012-01-17T19:54:20')
 
   describe 'given %a', ->
     it 'gives the abbreviated weekday name ("Sun")', ->
