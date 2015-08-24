@@ -1,3 +1,13 @@
+moment-strftime (0.1.4) stable; urgency=low
+
+  * Martin Hradil: Add "%k" (hour of day, no leading zero, 24-hour clock),
+    "%l" (hour of day, no leading zero, 12-hour clock), "%u" (numeric day of week
+    with Sunday as 7), and "%W" (week number with leading zero) (Closes: #14)
+  * Martin Hradil: Specify that "%Z" gives "UTC" for a moment.utc time
+    (Closes: #14)
+
+ -- Benjamin Oakes <hello@benjaminoakes.com>  Wed, 9 Jul 2015 03:20:00 +0000
+
 moment-strftime (0.1.3) stable; urgency=low
 
   * Started official support for stable node.js, node.js v0.10.x, node.js
