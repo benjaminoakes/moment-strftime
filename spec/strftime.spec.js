@@ -159,6 +159,12 @@ describe('strftime', function () {
     });
   });
 
+  describe('given any non-parametrized text', function () {
+    it('gives the same text', function () {
+      expect(january17.strftime('hello world')).toEqual('hello world');
+    });
+  });
+
   it('formats correctly with a compound format', function () {
     expect(january17.strftime("%m/%d/%y %I:%M %p")).toEqual('01/17/12 07:54 PM');
   });
