@@ -5,6 +5,14 @@ RUN echo 'gem install --no-ri --no-rdoc $*' > /usr/local/bin/pkg-gem
 RUN echo 'npm install --global $*' > /usr/local/bin/pkg-npm
 RUN chmod +x /usr/local/bin/pkg-*
 
+# Install travis gem for encrypted config (`travis setup npm`)
+RUN pkg-deb ruby2.3 \
+  ruby2.3-dev \
+  libffi-dev=3.2.1-4 \
+  build-essential=12.1ubuntu2 \
+  git=1:2.7.4-0ubuntu1
+RUN pkg-gem travis
+
 RUN pkg-deb \
   npm=3.5.2-0ubuntu4 \
   nodejs-legacy=4.2.6~dfsg-1ubuntu4

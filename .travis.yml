@@ -1,21 +1,21 @@
 matrix:
   include:
   - language: node_js
-    node_js: "node"
+    node_js: node
   - language: node_js
-    node_js: "iojs"
+    node_js: iojs
   - language: node_js
-    node_js: "7"
+    node_js: '7'
   - language: node_js
-    node_js: "6"
+    node_js: '6'
   - language: node_js
-    node_js: "5"
+    node_js: '5'
   - language: node_js
-    node_js: "4"
+    node_js: '4'
   - language: node_js
-    node_js: "0.12"
+    node_js: '0.12'
   - language: node_js
-    node_js: "0.10"
+    node_js: '0.10'
   - sudo: required
     services:
     - docker
@@ -24,3 +24,11 @@ matrix:
     script:
     - docker-compose run test npm install
     - docker-compose run test
+deploy:
+  provider: npm
+  email: hello@benjaminoakes.com
+  api_key:
+    secure: Zq6OFLLnPcE2Bq4bz6NkBGQg9zNR9HMGaFVK/UgztAen8VV8nQMBj3T2zxu/YAgfinC5wicz0a9oNn7OTmyy0CuH03UeWfdMzGQ8mXvU/iK1Q1UISVkNkrIvJz28zgiUzTZxz2X6T7A3O634vFxcjB715kcyQqbEtnbIv+sStdQ=
+  on:
+    tags: true
+    repo: benjaminoakes/moment-strftime
