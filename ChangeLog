@@ -1,4 +1,4 @@
-moment-strftime (0.2.0) unstable; urgency=low
+moment-strftime (0.2.0) stable; urgency=low
 
   * Start official support for Node 4, 5, 6, and 7.
   * Add Docker container for development.
@@ -7,7 +7,7 @@ moment-strftime (0.2.0) unstable; urgency=low
   * Paweł Sierszeń, David Rojo Gonzalez: Fix formatting of normal
     non-parameterized text (Closes: #16, #17, #18)
 
- -- Benjamin Oakes <hello@benjaminoakes.com>  Wed, 26 Oct 2016 08:34:00 -5000
+ -- Benjamin Oakes <hello@benjaminoakes.com>  Wed, 26 Oct 2016 10:00:00 -5000
  
 moment-strftime (0.1.5) stable; urgency=low
 

@@ -1,6 +1,6 @@
 {
   "name": "moment-strftime",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "author": "Benjamin Oakes <hello@benjaminoakes.com> (http://www.benjaminoakes.com/)",
   "description": "moment-strftime adds strftime to Moment.js",
   "keywords": [
