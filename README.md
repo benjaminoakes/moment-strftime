@@ -56,7 +56,7 @@ To get up and running:
 
 ## Resources
 
-* [cheat strftime](http://cheat.errtheblog.com/s/strftime/)
+* [cheat strftime](http://errtheblog.com/posts/21-cheat)
 * [C strftime](http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html)
 
 ## License
