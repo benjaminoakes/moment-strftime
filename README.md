@@ -50,7 +50,6 @@ If you run into an issue or unimplemented feature that you need, please [open an
 To get up and running:
 
     docker-compose build
-    docker-compose run test npm install # FIXME
     docker-compose run test
 
 ## Resources
