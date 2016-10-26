@@ -47,12 +47,11 @@ If you run into an issue or unimplemented feature that you need, please [let me 
 
 ## Contributing
 
-You'll need Node.js for development.
-
 To get up and running:
 
-    npm install
-    npm test
+    docker-compose build
+    docker-compose run test npm install # FIXME
+    docker-compose run test
 
 ## Resources
 

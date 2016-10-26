@@ -22,4 +22,5 @@ matrix:
     install:
     - docker-compose build
     script:
+    - docker-compose run test npm install
     - docker-compose run test
