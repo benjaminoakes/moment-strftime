@@ -1,3 +1,10 @@
+moment-strftime (0.2.0) unstable; urgency=low
+
+  * Remove "build" directory and included minified JavaScript.
+  * Martin Hradil: Update moment dependency to allow any 2.x version.  (Closes: #19)
+
+ -- Benjamin Oakes <hello@benjaminoakes.com>  Wed, 26 Oct 2016 08:34:00 -5000
+ 
 moment-strftime (0.1.5) stable; urgency=low
 
   * Martin Hradil: Regenerate build for bower.  (Closes: #15)
