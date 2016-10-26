@@ -16,6 +16,8 @@
     "url": "https://github.com/benjaminoakes/moment-strftime.git"
   },
 
+  "license": "MIT",
+
   "licenses": [
     {
       "type": "MIT"
