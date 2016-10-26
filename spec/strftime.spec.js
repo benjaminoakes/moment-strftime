@@ -158,6 +158,16 @@ describe('strftime', function () {
       expect(january17.strftime('%%')).toEqual('%');
     });
   });
+  describe('given %d of month %m', function () {
+    it('gives "%d of month %m"', function () {
+      expect(january17.strftime('%d of month %m')).toEqual('17 of month 01');
+    });
+  });
+  describe('given this is a string', function () {
+    it('gives "this is a string', function () {
+      expect(january17.strftime('this is a string')).toEqual('this is a string');
+    });
+  });
 
   it('formats correctly with a compound format', function () {
     expect(january17.strftime("%m/%d/%y %I:%M %p")).toEqual('01/17/12 07:54 PM');
