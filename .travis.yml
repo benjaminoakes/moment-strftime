@@ -1,10 +1,25 @@
-language: node_js
-node_js:
-  - "node"
-  - "iojs"
-  - "7"
-  - "6"
-  - "5"
-  - "4"
-  - "0.12"
-  - "0.10"
+matrix:
+  include:
+  - language: node_js
+    node_js: "node"
+  - language: node_js
+    node_js: "iojs"
+  - language: node_js
+    node_js: "7"
+  - language: node_js
+    node_js: "6"
+  - language: node_js
+    node_js: "5"
+  - language: node_js
+    node_js: "4"
+  - language: node_js
+    node_js: "0.12"
+  - language: node_js
+    node_js: "0.10"
+  - sudo: required
+    services:
+    - docker
+    install:
+    - docker-compose build
+    script:
+    - docker-compose run test
