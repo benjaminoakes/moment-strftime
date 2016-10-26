@@ -26,3 +26,21 @@ moment-strftime (0.1.3) stable; urgency=low
     (Closes: #12)
 
  -- Benjamin Oakes <hello@benjaminoakes.com>  Wed, 9 Jul 2015 03:20:00 +0000
+
+moment-strftime (0.1.2) stable; urgency=low
+
+  * Improve npm user experience.
+
+ -- Benjamin Oakes <hello@benjaminoakes.com>  Tue, 17 Jan 2012 23:39:26 -0500
+
+moment-strftime (0.1.1) stable; urgency=low
+
+  * Update npm packaging.
+
+ -- Benjamin Oakes <hello@benjaminoakes.com>  Tue, 17 Jan 2012 22:57:15 -0500
+
+moment-strftime (0.1.0) stable; urgency=low
+
+  * Initial release.
+
+ -- Benjamin Oakes <hello@benjaminoakes.com>  Tue, 17 Jan 2012 22:42:06 -0500
