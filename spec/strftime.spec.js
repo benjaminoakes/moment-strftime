@@ -158,6 +158,7 @@ describe('strftime', function () {
       expect(january17.strftime('%%')).toEqual('%');
     });
   });
+
   describe('given %d of month %m', function () {
     it('gives "%d of month %m"', function () {
       expect(january17.strftime('%d of month %m')).toEqual('17 of month 01');
