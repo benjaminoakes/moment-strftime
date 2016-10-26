@@ -1,7 +1,10 @@
 moment-strftime (0.2.0) unstable; urgency=low
 
+  * Start official support for Node 4, 5, 6, and 7.
+  * Add Docker container for development.
   * Remove "build" directory and included minified JavaScript.
   * Martin Hradil: Update moment dependency to allow any 2.x version.  (Closes: #19)
+  * Paweł Sierszeń: Don't format normal non-parametrized text (Closes: #16, #18)
 
  -- Benjamin Oakes <hello@benjaminoakes.com>  Wed, 26 Oct 2016 08:34:00 -5000
  
