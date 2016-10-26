@@ -4,7 +4,8 @@ moment-strftime (0.2.0) unstable; urgency=low
   * Add Docker container for development.
   * Remove "build" directory and included minified JavaScript.
   * Martin Hradil: Update moment dependency to allow any 2.x version.  (Closes: #19)
-  * Paweł Sierszeń: Don't format normal non-parametrized text (Closes: #16, #18)
+  * Paweł Sierszeń, David Rojo Gonzalez: Fix formatting of normal
+    non-parameterized text (Closes: #16, #17, #18)
 
  -- Benjamin Oakes <hello@benjaminoakes.com>  Wed, 26 Oct 2016 08:34:00 -5000
  
