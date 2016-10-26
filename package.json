@@ -39,9 +39,6 @@
   },
 
   "devDependencies": {
-    "jasmine-node": "1.14.5",
-    "jshint": "0.5.6",
-    "rimraf": "1.0.9",
-    "uglify-js": "1.2.5"
+    "jasmine-node": "1.14.5"
   }
 }
