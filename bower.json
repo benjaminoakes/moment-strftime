@@ -17,10 +17,9 @@
         "**/.*",
         "node_modules",
         "bower_components",
-        "lib",
         "spec"
     ],
     "dependencies": {
-        "moment": "~2.10.3"
+        "moment": "~2.10"
     }
 }
