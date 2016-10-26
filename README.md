@@ -43,7 +43,7 @@ Compatibility: stable Chrome, stable Firefox, stable Safari, IE9+
 
 I've only developed `moment-strftime` as far as I need it right now, rather than implementing features I don't need yet.  I've noticed that implementing "unused" features often leads to bugs, so the plan is to implement on an as-needed basis.
 
-If you run into an issue or unimplemented feature that you need, please [let me know](https://github.com/benjaminoakes/moment-strftime/issues).  Contributions are welcome as well.
+If you run into an issue or unimplemented feature that you need, please [open an issue](https://github.com/benjaminoakes/moment-strftime/issues) or (preferably) make a pull request.
 
 ## Contributing
 
