@@ -1,3 +1,9 @@
+moment-strftime (0.2.2) stable; urgency=low
+
+  * Julian Scheid: Relax moment dependency constraint (Closes: #22)
+
+ -- Benjamin Oakes <hello@benjaminoakes.com>  Tue, 14 Jun 2017 20:00:00 +0000
+
 moment-strftime (0.2.1) stable; urgency=low
 
   * Jed Fox: Fix webpack critical dependency warning (Closes: #20, #21)
