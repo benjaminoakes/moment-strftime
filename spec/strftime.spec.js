@@ -6,6 +6,7 @@ describe('strftime', function () {
   beforeEach(function () {
     january17 = moment('2012-01-17T19:54:20');      // Tuesday
     december2 = moment.utc('2029-12-02T01:02:03Z'); // Sunday
+    farction = moment('2012-01-17T19:54:20.123');   // Tuesday with microseconds
   });
 
   describe('given %a', function () {
@@ -151,6 +152,12 @@ describe('strftime', function () {
     it('gives the UTC offset', function () {
       expect(january17.strftime('%z')).toMatch(/[\-+]\d{4}/);
     });
+  });
+
+  describe('given %f', function () {
+      it('gives the micro-seconds', function () {
+          expect(farction.strftime('%f')).toEqual('123');
+      });
   });
 
   describe('given %%', function () {
