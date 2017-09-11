@@ -1,3 +1,9 @@
+moment-strftime (0.2.3) stable; urgency=low
+
+  * Ziv Perry: Add support for fractional seconds (Closes: #23)
+
+ -- Benjamin Oakes <hello@benjaminoakes.com>  Mon, 11 Sep 2017 15:30:00 +0000
+
 moment-strftime (0.2.2) stable; urgency=low
 
   * Julian Scheid: Relax moment dependency constraint (Closes: #22)

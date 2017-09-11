@@ -9,3 +9,4 @@ In alphabetical order:
 * Nicolas (@nikospkrk)
 * Paweł Sierszeń (@nix1)
 * Pierre Rudloff (@Rudloff)
+* Ziv Perry (@ziv)
