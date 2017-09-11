@@ -1,12 +1,12 @@
 var moment = require('../lib/moment-strftime');
 
 describe('strftime', function () {
-  var january17, december2;
+  var january17, december2, fraction;
 
   beforeEach(function () {
     january17 = moment('2012-01-17T19:54:20');      // Tuesday
     december2 = moment.utc('2029-12-02T01:02:03Z'); // Sunday
-    farction = moment('2012-01-17T19:54:20.123');   // Tuesday with microseconds
+    fraction = moment('2012-01-17T19:54:20.123');   // Tuesday with microseconds
   });
 
   describe('given %a', function () {
@@ -155,9 +155,9 @@ describe('strftime', function () {
   });
 
   describe('given %f', function () {
-      it('gives the micro-seconds', function () {
-          expect(farction.strftime('%f')).toEqual('123');
-      });
+    it('gives the micro-seconds', function () {
+      expect(fraction.strftime('%f')).toEqual('123');
+    });
   });
 
   describe('given %%', function () {
