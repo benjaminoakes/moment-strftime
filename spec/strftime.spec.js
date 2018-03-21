@@ -4,6 +4,7 @@ describe('strftime', function () {
   var january17, december2, fraction;
 
   beforeEach(function () {
+    moment.locale('en');                            // Setting locale to `en` for locale specific tests
     january17 = moment('2012-01-17T19:54:20');      // Tuesday
     december2 = moment.utc('2029-12-02T01:02:03Z'); // Sunday
     fraction = moment('2012-01-17T19:54:20.123');   // Tuesday with microseconds
@@ -30,6 +31,12 @@ describe('strftime', function () {
   describe('given %B', function () {
     it('gives the  full  month  name ("January")', function () {
       expect(january17.strftime('%B')).toEqual('January');
+    });
+  });
+
+  describe('given %c', function () {
+    it('gives locale\'s appropriate date and time representation', function () {
+      expect(january17.strftime('%c')).toEqual('Jan 17, 2012 7:54 PM');
     });
   });
 
@@ -123,6 +130,18 @@ describe('strftime', function () {
     it('gives the week number (00-53)', function () {
       expect(january17.strftime('%W')).toEqual('03');
       expect(december2.strftime('%W')).toEqual('48');
+    });
+  });
+
+  describe('given %x', function () {
+    it('gives locale\'s appropriate date representation', function () {
+      expect(january17.strftime('%x')).toEqual('Jan 17, 2012');
+    });
+  });
+
+  describe('given %X', function () {
+    it('gives locale\'s appropriate time representation', function () {
+      expect(january17.strftime('%X')).toEqual('7:54:20 PM');
     });
   });
 
