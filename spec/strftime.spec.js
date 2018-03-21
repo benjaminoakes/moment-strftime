@@ -35,7 +35,7 @@ describe('strftime', function () {
   });
 
   describe('given %c', function () {
-    it('gives locale\'s appropriate date and time representation', function () {
+    it('gives appropriate date and time representation for the locale', function () {
       expect(january17.strftime('%c')).toEqual('Jan 17, 2012 7:54 PM');
     });
   });
@@ -134,13 +134,13 @@ describe('strftime', function () {
   });
 
   describe('given %x', function () {
-    it('gives locale\'s appropriate date representation', function () {
+    it('gives appropriate date representation for the locale', function () {
       expect(january17.strftime('%x')).toEqual('Jan 17, 2012');
     });
   });
 
   describe('given %X', function () {
-    it('gives locale\'s appropriate time representation', function () {
+    it('gives appropriate time representation for the locale', function () {
       expect(january17.strftime('%X')).toEqual('7:54:20 PM');
     });
   });
