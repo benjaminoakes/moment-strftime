@@ -1,9 +1,6 @@
 app:
   build: .
-  volumes:
-    - .:/src
-test:
-  build: .
+  working_dir: /src
   volumes:
     - .:/src
   command: npm test
