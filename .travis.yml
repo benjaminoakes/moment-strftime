@@ -22,7 +22,7 @@ matrix:
     install:
     - docker-compose build
     script:
-    - docker-compose run test
+    - docker-compose run app npm test
 deploy:
   provider: npm
   email: hello@benjaminoakes.com
