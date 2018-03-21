@@ -1,3 +1,10 @@
+moment-strftime (0.3.0) stable; urgency=low
+
+  * Sambhav Kothari: Add support for locale-preferred date and time
+    representation (Closes: #26, #27)
+
+ -- Benjamin Oakes <hello@benjaminoakes.com>  Wed, 21 Mar 2018 14:00:00 +0000
+
 moment-strftime (0.2.3) stable; urgency=low
 
   * Ziv Perry: Add support for fractional seconds (Closes: #23)
