@@ -20,6 +20,6 @@
         "spec"
     ],
     "dependencies": {
-        "moment": "^2.10"
+        "moment": "^2.11.2"
     }
 }
