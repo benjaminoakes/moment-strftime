@@ -1,3 +1,9 @@
+moment-strftime (0.3.2) stable; urgency=low
+
+  * Change minimum version of moment.js to mitigate DoS (Closes: #24, #29)
+
+ -- Benjamin Oakes <hello@benjaminoakes.com>  Fri, 27 Apr 2018 14:30:00 +0000
+
 moment-strftime (0.3.1) stable; urgency=low
 
   * Gilmore Davidson: More accurate replacement of strftime tokens
