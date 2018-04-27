@@ -185,6 +185,12 @@ describe('strftime', function () {
     });
   });
 
+  describe('given an unknown token', function() {
+    it('gives the same token unreplaced', function() {
+      expect(january17.strftime('%Q')).toEqual('%Q');
+    });
+  });
+
   describe('given %d of month %m', function () {
     it('gives "%d of month %m"', function () {
       expect(january17.strftime('%d of month %m')).toEqual('17 of month 01');
@@ -197,7 +203,17 @@ describe('strftime', function () {
     });
   });
 
-  it('formats correctly with a compound format', function () {
-    expect(january17.strftime("%m/%d/%y %I:%M %p")).toEqual('01/17/12 07:54 PM');
+  describe('given a compound format', function() {
+    it('formats correctly with distinct tokens', function () {
+      expect(january17.strftime('%m/%d/%y %I:%M %p')).toEqual('01/17/12 07:54 PM');
+    });
+
+    it('formats correctly with tokens surrounding other letters', function() {
+      expect(january17.strftime('%Y-%m-%dT%H:%M')).toEqual('2012-01-17T19:54');
+    });
+
+    it('formats correctly with tokens within words', function() {
+      expect(january17.strftime('a code is month%m%Yyear')).toEqual('a code is month012012year');
+    });
   });
 });
