@@ -1,3 +1,10 @@
+moment-strftime (0.3.1) stable; urgency=low
+
+  * Gilmore Davidson: More accurate replacement of strftime tokens
+    (Closes: #25, #28)
+
+ -- Benjamin Oakes <hello@benjaminoakes.com>  Fri, 27 Apr 2018 14:00:00 +0000
+
 moment-strftime (0.3.0) stable; urgency=low
 
   * Sambhav Kothari: Add support for locale-preferred date and time
