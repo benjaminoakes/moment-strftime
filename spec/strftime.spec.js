@@ -47,6 +47,13 @@ describe('strftime', function () {
     });
   });
 
+  describe('given %-d', function () {
+    it('gives day of the month (1..31)', function () {
+      expect(january17.strftime('%-d')).toEqual('17');
+      expect(december2.strftime('%-d')).toEqual('2');
+    });
+  });
+
   describe('given %e', function () {
     it('gives day of the month (1..31)', function () {
       expect(january17.strftime('%e')).toEqual('17');
@@ -61,6 +68,13 @@ describe('strftime', function () {
     });
   });
 
+  describe('given %-H', function () {
+    it('gives hour of the day, 24-hour clock (00..23)', function () {
+      expect(january17.strftime('%-H')).toEqual('19');
+      expect(december2.strftime('%-H')).toEqual('1');
+    });
+  });
+
   describe('given %I', function () {
     it('gives hour of the day, 12-hour clock (01..12)', function () {
       expect(january17.strftime('%I')).toEqual('07');
@@ -68,9 +82,22 @@ describe('strftime', function () {
     });
   });
 
+  describe('given %-I', function () {
+    it('gives hour of the day, 12-hour clock (01..12)', function () {
+      expect(january17.strftime('%-I')).toEqual('7');
+      expect(december2.strftime('%-I')).toEqual('1');
+    });
+  });
+
   describe('given %j', function () {
     it('gives day of the year (001..366)', function () {
       expect(january17.strftime('%j')).toEqual('017');
+    });
+  });
+
+  describe('given %-j', function () {
+    it('gives day of the year (001..366)', function () {
+      expect(january17.strftime('%-j')).toEqual('17');
     });
   });
 
@@ -94,9 +121,21 @@ describe('strftime', function () {
     });
   });
 
+  describe('given %-m', function () {
+    it('gives month of the year (01..12)', function () {
+      expect(january17.strftime('%-m')).toEqual('1');
+    });
+  });
+
   describe('given %M', function () {
     it('gives minute of the hour (00..59)', function () {
-      expect(january17.strftime('%M')).toEqual('54');
+      expect(december2.strftime('%M')).toEqual('02');
+    });
+  });
+
+  describe('given %-M', function () {
+    it('gives minute of the hour (00..59)', function () {
+      expect(december2.strftime('%-M')).toEqual('2');
     });
   });
 
@@ -108,7 +147,13 @@ describe('strftime', function () {
 
   describe('given %S', function () {
     it('gives second of the minute (00..60)', function () {
-      expect(january17.strftime('%S')).toEqual('20');
+      expect(december2.strftime('%S')).toEqual('03');
+    });
+  });
+
+  describe('given %-S', function () {
+    it('gives second of the minute (00..60)', function () {
+      expect(december2.strftime('%-S')).toEqual('3');
     });
   });
 
