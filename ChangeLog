@@ -1,3 +1,10 @@
+moment-strftime (0.5.0) stable; urgency=low
+
+  * Jamie Lubiner: Add support for lowercase meridian indicator (%P for am/pm)
+    (Closes: #31)
+
+ -- Benjamin Oakes <hello@benjaminoakes.com>  Wed, 29 Aug 2018 11:55:00 +0000
+
 moment-strftime (0.4.1) stable; urgency=low
 
   * Reduce maintenance overhead; no functional changes.
