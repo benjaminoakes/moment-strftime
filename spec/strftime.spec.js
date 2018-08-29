@@ -145,6 +145,12 @@ describe('strftime', function () {
     });
   });
 
+  describe('given %P', function () {
+    it('gives meridian indicator ("am"  or  "pm")', function () {
+      expect(january17.strftime('%P')).toEqual('pm');
+    });
+  });
+
   describe('given %S', function () {
     it('gives second of the minute (00..60)', function () {
       expect(december2.strftime('%S')).toEqual('03');
